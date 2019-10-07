@@ -38,6 +38,9 @@ export function Icon({ icon, block, ...props }) {
 }
 
 Icon.propTypes = {
+    /**
+     * Name of the Icon
+     */
     icon: PropTypes.string.isRequired,
     block: PropTypes.bool,
 }
