@@ -3,6 +3,7 @@
 #### ⚠️ Pushed to master
 
 -   Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
+-   Configured Documentation build
 
 #### Authors: 1
 
