@@ -1,61 +1,62 @@
 {
-    "name": "jp-design-system-example",
-    "version": "0.1.1",
-    "private": false,
-    "scripts": {
-        "build": "BABEL_ENV=production babel src -d dist",
-        "prepare": "npm run build",
-        "test": "react-scripts test",
-        "storybook": "start-storybook -p 9009 -s public",
-        "build-storybook": "build-storybook -s public",
-        "build-storybook-docs": "build-storybook -s public --docs",
-        "release": "auto shipit"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "babel": {
-        "presets": [
-            "react-app"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "dependencies": {
-        "polished": "^3.4.1",
-        "prop-types": "^15.7.2",
-        "react": "^16.10.1",
-        "react-dom": "^16.10.1",
-        "react-scripts": "3.2.0",
-        "styled-components": "^4.4.0"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.6.2",
-        "@storybook/addon-a11y": "^5.2.3",
-        "@storybook/addon-actions": "^5.2.3",
-        "@storybook/addon-docs": "^5.2.3",
-        "@storybook/addon-knobs": "^5.2.3",
-        "@storybook/addon-links": "^5.2.3",
-        "@storybook/addon-storysource": "^5.2.3",
-        "@storybook/addons": "^5.2.3",
-        "@storybook/react": "^5.2.3",
-        "auto": "^7.8.0",
-        "prettier": "^1.18.2",
-        "storybook-chromatic": "^3.0.0"
-    },
-    "description": "A Design System example built from www.learnstorybook.com",
-    "main": "dist/index.js",
-    "repository": "https://github.com/jpmarra/learnstorybook-design-system.git",
-    "author": "jmarra <jp.marra@mlb.com>",
-    "license": "MIT"
+  "name": "jp-design-system-example",
+  "version": "0.1.1",
+  "private": false,
+  "scripts": {
+    "build": "BABEL_ENV=production babel src -d dist",
+    "prepare": "npm run build",
+    "test": "react-scripts test",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "release": "auto shipit",
+    "chromatic": "CHROMATIC_APP_CODE=y9ydey6qsvf chromatic y9ydey6qsvf --exit-zero-on-changes"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "polished": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@storybook/addon-a11y": "^5.2.3",
+    "@storybook/addon-actions": "^5.2.3",
+    "@storybook/addon-docs": "^5.2.3",
+    "@storybook/addon-knobs": "^5.2.3",
+    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addon-storysource": "^5.2.3",
+    "@storybook/addons": "^5.2.3",
+    "@storybook/react": "^5.2.3",
+    "auto": "^7.8.0",
+    "prettier": "^1.18.2",
+    "storybook-chromatic": "^3.0.0"
+  },
+  "description": "A Design System example built from www.learnstorybook.com",
+  "main": "dist/index.js",
+  "repository": "https://github.com/jpmarra/learnstorybook-design-system.git",
+  "author": "jmarra <jp.marra@mlb.com>",
+  "license": "MIT"
 }
