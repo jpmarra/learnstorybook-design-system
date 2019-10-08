@@ -1,3 +1,15 @@
+# v0.1.12 (Tue Oct 08 2019)
+
+#### ⚠️  Pushed to master
+
+- remove script  (jp.marra@mlb.com)
+
+#### Authors: 1
+
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.11 (Tue Oct 08 2019)
 
 #### ⚠️  Pushed to master
