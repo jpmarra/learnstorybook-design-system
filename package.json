@@ -9,7 +9,7 @@
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public",
         "build-storybook-docs": "build-storybook -s public --docs",
-        "release": "yarn build && auto shipit",
+        "release": "auto shipit",
         "chromatic": "CHROMATIC_APP_CODE=y9ydey6qsvf chromatic y9ydey6qsvf --exit-zero-on-changes"
     },
     "eslintConfig": {
