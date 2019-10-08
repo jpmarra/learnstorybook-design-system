@@ -4,21 +4,20 @@
     "private": false,
     "scripts": {
         "build": "BABEL_ENV=production babel src -d dist",
+        "prepare": "npm run build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public",
         "build-storybook-docs": "build-storybook -s public --docs",
-        "chromatic": "CHROMATIC_APP_CODE=y9ydey6qsvf chromatic",
         "release": "auto shipit"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
     },
     "babel": {
         "presets": [
             "react-app"
         ]
-    },
-    "eslintConfig": {
-        "extends": "react-app"
     },
     "browserslist": {
         "production": [
