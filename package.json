@@ -10,7 +10,7 @@
         "build-storybook": "build-storybook -s public",
         "build-storybook-docs": "build-storybook -s public --docs",
         "chromatic": "CHROMATIC_APP_CODE=y9ydey6qsvf chromatic",
-        "release": "yarn run build && auto shipit"
+        "release": "auto shipit"
     },
     "babel": {
         "presets": [
