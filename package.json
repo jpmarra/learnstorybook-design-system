@@ -3,7 +3,7 @@
     "version": "0.1.12",
     "private": false,
     "scripts": {
-        "build": "BABEL_ENV=production babel ./src -d dist",
+        "build": "BABEL_ENV=production babel src -d dist",
         "postinstall": "npm run build",
         "test": "react-scripts test",
         "storybook": "start-storybook -p 9009 -s public",
