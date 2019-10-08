@@ -1,3 +1,17 @@
+# v0.1.11 (Tue Oct 08 2019)
+
+#### ⚠️  Pushed to master
+
+- update to clear cache  (jp.marra@mlb.com)
+- update release script  (jp.marra@mlb.com)
+- clear cache  (jp.marra@mlb.com)
+
+#### Authors: 1
+
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.2 (Tue Oct 08 2019)
 
 #### 🐛  Bug Fix
