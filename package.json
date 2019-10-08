@@ -1,6 +1,6 @@
 {
     "name": "jp-design-system-example",
-    "version": "0.1.14",
+    "version": "0.1.12",
     "private": false,
     "scripts": {
         "build": "BABEL_ENV=production babel src -d dist",
@@ -17,10 +17,7 @@
     },
     "babel": {
         "presets": [
-            [
-                "react-app",
-                {}
-            ]
+            "react-app"
         ]
     },
     "browserslist": {
@@ -36,6 +33,7 @@
         ]
     },
     "dependencies": {
+        "babel-preset-react-app": "^9.0.2",
         "polished": "^3.4.1",
         "prop-types": "^15.7.2",
         "react": "^16.10.1",
