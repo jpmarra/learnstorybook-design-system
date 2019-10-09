@@ -1,3 +1,16 @@
+# v0.2.0 (Wed Oct 09 2019)
+
+#### 🚀  Enhancement
+
+- Create avatar list component [#6](https://github.com/jpmarra/learnstorybook-design-system/pull/6) (jp.marra@mlb.com [@jpmarra](https://github.com/jpmarra))
+
+#### Authors: 2
+
+- JP Marra ([@jpmarra](https://github.com/jpmarra))
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.20 (Wed Oct 09 2019)
 
 #### ⚠️  Pushed to master
