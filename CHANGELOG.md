@@ -1,3 +1,16 @@
+# v0.1.19 (Wed Oct 09 2019)
+
+#### ⚠️  Pushed to master
+
+- update cache for circleci  (jp.marra@mlb.com)
+- move deps to example app  (jp.marra@mlb.com)
+
+#### Authors: 1
+
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.18 (Wed Oct 09 2019)
 
 #### ⚠️  Pushed to master
