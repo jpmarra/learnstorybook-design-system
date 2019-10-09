@@ -1,3 +1,15 @@
+# v0.1.20 (Wed Oct 09 2019)
+
+#### ⚠️  Pushed to master
+
+- update babel config  (jp.marra@mlb.com)
+
+#### Authors: 1
+
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.19 (Wed Oct 09 2019)
 
 #### ⚠️  Pushed to master
