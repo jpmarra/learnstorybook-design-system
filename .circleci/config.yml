@@ -14,15 +14,15 @@ jobs:
 
             - restore_cache:
                   keys:
-                      - v6-dependencies-{{ checksum "package.json" }}
-                      - v6-dependencies-
+                      - v7-dependencies-{{ checksum "package.json" }}
+                      - v7-dependencies-
 
             - run: yarn install
 
             - save_cache:
                   paths:
                       - node_modules
-                  key: v6-dependencies-{{ checksum "package.json" }}
+                  key: v7-dependencies-{{ checksum "package.json" }}
 
             - run: yarn test
             - run: yarn chromatic test -a y9ydey6qsvf --exit-zero-on-changes
