@@ -1,3 +1,15 @@
+# v0.1.18 (Wed Oct 09 2019)
+
+#### ⚠️  Pushed to master
+
+- upgrade babel  (jp.marra@mlb.com)
+
+#### Authors: 1
+
+- jmarra (jp.marra@mlb.com)
+
+---
+
 # v0.1.17 (Tue Oct 08 2019)
 
 #### ⚠️  Pushed to master
